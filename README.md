@@ -78,8 +78,7 @@ a regularly exported API. For example, :
 
 The arguments to `get` are as follows:
 
-* _modpath_, the name or path of the module for which you want to access the API.
-This is the same as what you would pass to `require` to obtain the primary API.
+* _modpath_, the name or path of the module for which you want to access the API. If using in a path, you should use an absolute path. Using a relative path would need to be written such that it reaches the module starting from `node_modules/sidedoor/lib/`, so it's easier to provide an absolute path with `__dirname`. For example, if the module `my_module` were in the same folder, use: `var test_api = sidedoor.get(__dirname + '/my_module')`
 * _name_, the name of the secondary API you are accessing. If omitted, the default
 unnamed API is obtained.
 
