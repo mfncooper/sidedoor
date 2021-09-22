@@ -1,6 +1,6 @@
 # Sidedoor - Exposing a secondary API for your Node.js modules
 
-[![Build Status](https://secure.travis-ci.org/mfncooper/sidedoor.png)](http://travis-ci.org/mfncooper/sidedoor)
+![status](https://img.shields.io/badge/status-archive-red)
 
 As you've written unit tests for your Node.js modules, you've almost certainly
 been forced to think about exposing some internal methods for the sole purpose
